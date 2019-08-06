@@ -7,7 +7,7 @@ class Api::V1::ApartmentsController < Api::V1::BaseController
     @apartments = @user.apartments
   end
   
-  def show    
+  def show
   end
   
   def create
@@ -35,7 +35,7 @@ class Api::V1::ApartmentsController < Api::V1::BaseController
   private
   
   def apartment_params
-    params.require(:apartment).permit(:title, :city, :address, :capacity, :price, :description, :photo, :available, :user_id)
+    params.require(:apartment).permit(:title, :city, :address, :capacity, :price, :description, :photo, :available)
   end
   
   def set_user
