@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  apartment: one
+  arrival_date: 2019-08-06
+  departure_date: 2019-08-06
+  total_price: 1
+  booking_status: false
+
+two:
+  user: two
+  apartment: two
+  arrival_date: 2019-08-06
+  departure_date: 2019-08-06
+  total_price: 1
+  booking_status: false
