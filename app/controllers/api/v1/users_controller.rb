@@ -1,5 +1,5 @@
 class Api::V1::UsersController < Api::V1::BaseController
-  skip_before_action :verify_authenticity_token, only: [:update]
+  skip_before_action :verify_authenticity_token, only: [:update, :create]
   before_action :set_user, only: [:show, :update, :destroy]
   
   def index
